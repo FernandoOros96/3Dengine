@@ -47,8 +47,8 @@ namespace _3Dengine
             if (option == 1)
             {
                 rotateMatrix = new float[,]{{1,0, 0},
-                             {0,  cosAngle,sinAngle},
-                             {0,  -sinAngle, cosAngle}};
+                             {0,  cosAngle,-sinAngle},
+                             {0,  sinAngle, cosAngle}};
             }else if(option == 2)
             {
                 rotateMatrix = new float[,]{{ cosAngle,0, sinAngle},
