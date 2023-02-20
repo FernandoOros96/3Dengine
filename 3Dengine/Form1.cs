@@ -45,7 +45,7 @@ namespace _3Dengine
         {
             for (int i = 0; i < scene.Figures[0].Pts.Count; i++)
             {
-                scene.Figures[0].Pts[i] = new PointF(scene.Figures[0].Pts[i].X + Cx, scene.Figures[0].Pts[i].Y + Cy);
+                scene.Figures[0].Pts[i] = new PointF(scene.Figures[0].Pts[i].X + Cx, Cy - scene.Figures[0].Pts[i].Y);
             }
         }
 
