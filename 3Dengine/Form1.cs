@@ -31,14 +31,24 @@ namespace _3Dengine
 
         private void createPoints3D()
         {
-            cube.vertices.Add(new Vertex(-50,-50,50));
-            cube.vertices.Add(new Vertex(-50,50,50));
-            cube.vertices.Add(new Vertex(50,50, 50));
-            cube.vertices.Add(new Vertex(50,-50, 50));
-            cube.vertices.Add(new Vertex(50, 50, -50));
-            cube.vertices.Add(new Vertex(50, -50, -50));
-            cube.vertices.Add(new Vertex(-50, 50, -50));
-            cube.vertices.Add(new Vertex(-50, -50, -50));
+             /*cube.vertices.Add(new Vertex(-50,-50,50));
+             cube.vertices.Add(new Vertex(-50,50,50));
+             cube.vertices.Add(new Vertex(50,50, 50));
+             cube.vertices.Add(new Vertex(50,-50, 50));
+             cube.vertices.Add(new Vertex(50, 50, -50));
+             cube.vertices.Add(new Vertex(50, -50, -50));
+             cube.vertices.Add(new Vertex(-50, 50, -50));
+             cube.vertices.Add(new Vertex(-50, -50, -50));*/
+
+            cube.vertices.Add(new Vertex(-1, -1, 1));
+            cube.vertices.Add(new Vertex(-1, 1, 1));
+            cube.vertices.Add(new Vertex(1, 1, 1));
+            cube.vertices.Add(new Vertex(1, -1, 1));
+            cube.vertices.Add(new Vertex(1, 1, -1));
+            cube.vertices.Add(new Vertex(1, -1, -1));
+            cube.vertices.Add(new Vertex(-1, 1, -1));
+            cube.vertices.Add(new Vertex(-1, -1, -1));
+
         }
 
         private void centerPoints()
