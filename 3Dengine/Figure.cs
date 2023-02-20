@@ -32,7 +32,7 @@ namespace _3Dengine
 
                 projectedPoints = matrixMultiply(projectedMatrix, vertices[p].point3D);
 
-                Pts.Add(new PointF(projectedPoints[0, 0]*100/(100 - vertices[p].z), projectedPoints[1, 0] * 100 / (100 - vertices[p].z)));
+                Pts.Add(new PointF(projectedPoints[0, 0]*400/(400 - vertices[p].z), projectedPoints[1, 0] * 400 / (400 - vertices[p].z)));
             }
         }
 
